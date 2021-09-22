@@ -1,0 +1,105 @@
+ 
+ 
+ /* -*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*- navigation bar -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-  */
+ #navbar{ 
+   flex-direction: column;
+    }
+ 
+    #navbar ul {
+        margin-bottom: 15px;
+    }    
+    .item{
+        font-size: 1rem;
+    }
+
+ /* -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- HOME -*-*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+
+ #home .main{
+margin: 40px 30px;
+ padding: 5px;  
+ }
+
+ #home p{
+margin: 0px 10px;
+}
+
+
+ /* -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- SERVICES -*-*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+
+ #services{
+    flex-direction: column;   
+    margin:  10PX 15px;
+    flex-wrap: wrap;
+}
+
+#services .box{ 
+    margin: 3px 5px;
+    padding: 10px;
+    
+   
+}
+#services .box img{
+    display: block;
+    height: 70PX;
+    margin: 20px auto;
+
+} 
+
+
+ /* -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- #Sponsor-sec -*-*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+ #client{
+    flex-wrap: wrap;
+ }
+
+ #client-sec h1{
+    
+   margin-bottom: 20px;
+}
+
+ #client img{
+        
+    height: 60px;
+    padding: 10px 20px;
+   margin: 5px 0px;
+}
+
+ /* -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- #Contect-sec *-*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+ #Contect form{
+    margin: 10PX 20PX;
+    padding: 0px 30px;
+ }
+ #Contect input{
+    width: 80%;
+    margin: 10PX auto;
+   
+}
+
+ /* -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-  follow  -*-*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+ #follow-sec .follow{
+    flex-direction: column; 
+    
+}
+#follow-sec .follow-logo{
+    flex-wrap: wrap;
+}
+#follow-sec img{
+
+    height: 50px;
+
+
+}
+ 
+ 
+ /* -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-    footer  -*-*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+ 
+ 
+ 
+ /* -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-SAME FOR ALL-*-*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+
+ .h-pri{
+    font-size: 3.8rem;
+      margin: 0px 0px;
+}  
+.h-sec{
+    font-size: 2.8rem;
+}
